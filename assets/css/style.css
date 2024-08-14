@@ -44,6 +44,13 @@ body {
     margin: 10px;
 }
 
+.calculator form input:hover {
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(255, 255, 255, 0.2);
+    background: #fff;
+    font-size: 20px;
+    color: black;
+}
+
 form .display {
     display: flex;
     justify-content: flex-end;
